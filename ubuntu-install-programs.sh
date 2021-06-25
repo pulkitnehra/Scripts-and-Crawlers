@@ -8,15 +8,15 @@
 # -qq will continue with the installation even if an error occurs
 
 # # install jdk
-# sudo apt update -qq
-# sudo apt install -yy openjdk-11-jdk 
+sudo apt update -qq
+sudo apt install -yy openjdk-11-jdk 
 
 # # install eclipse
-# sudo snap install eclipse --classic
+sudo snap install eclipse --classic
 
 # # install mysql server
-# sudo apt install -yy mysql-server
-# sudo mysql_secure_installation
+sudo apt install -yy mysql-server
+sudo mysql_secure_installation
 
 #install the latest version of git
 sudo add-apt-repository -qq ppa:git-core/ppa
@@ -54,3 +54,4 @@ echo "deb http://deb.anydesk.com/ all main" | sudo tee /etc/apt/sources.list.d/a
 sudo apt update -qq
 sudo apt install anydesk -yy
 
+# Add more programs here
