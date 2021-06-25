@@ -9,7 +9,7 @@ Programs are:-
 6. VLC
 7. Eclipse
 8. Netbeans
-9. Miniconda
+9. Miniconda follow this:- https://varhowto.com/install-miniconda-ubuntu-20-04/
 10. Spotify
 11. Python3 Virtual Environment
 12. Python3 pip
