@@ -1,6 +1,6 @@
 # Ubuntu-Script
 This script when it is executable makes the silent install of the programs mentioned in the README without any user intervention
-Programs are:-
+# Programs are:-
 1. JDK 11
 2. Chrome
 3. Sublime Text
