@@ -54,4 +54,6 @@ echo "deb http://deb.anydesk.com/ all main" | sudo tee /etc/apt/sources.list.d/a
 sudo apt update -qq
 sudo apt install anydesk -yy
 
-# Add more programs here
+# Install Telegram
+sudo snap install telegram-desktop -yy
+
