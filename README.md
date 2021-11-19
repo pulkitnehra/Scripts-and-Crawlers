@@ -13,4 +13,4 @@ This script when it is executable makes the silent install of the programs menti
 10. Spotify
 11. Python3 Virtual Environment
 12. Python3 pip
-13. For IntelliJ, Pycharm it would be better to use Jetbrains toolbox which could make the installation and uninstallation process easier
+
