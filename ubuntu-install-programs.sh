@@ -24,7 +24,7 @@ sudo apt-get install git -yy
 
 # Install google chrome
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
-sudo apt install ./google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb -yy
 
 # Install VSCODE
 sudo apt update -qq
@@ -42,7 +42,7 @@ sudo snap install pycharm-community --classic
 sudo apt install codeblocks -yy
 
 #Install vlc
-sudo snap install vlc
+sudo snap install vlc -yy
 
 #Install Spotify
 sudo apt-get install snapd
