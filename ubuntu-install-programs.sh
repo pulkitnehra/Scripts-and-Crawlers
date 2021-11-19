@@ -49,9 +49,9 @@ sudo apt-get install snapd
 sudo snap install spotify -yy
 
 # Install python virtualenv and pip
-sudo apt install python3
-sudo apt install python3-pip
-sudo apt install python3-virtualenv
+sudo apt install python3 -yy
+sudo apt install python3-pip -yy
+sudo apt install python3-virtualenv -yy
 
 
 # Install AnyDesk
