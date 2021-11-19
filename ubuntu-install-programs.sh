@@ -33,6 +33,11 @@ wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add
 sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
 sudo apt install code -yy
 
+# Install IntelliJ
+sudo snap install intellij-idea-community --classic
+
+# Install Pycharm
+sudo snap install pycharm-community --classic
 
 #Install vlc
 sudo snap install vlc
