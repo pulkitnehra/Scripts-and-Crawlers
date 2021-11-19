@@ -46,7 +46,7 @@ sudo snap install vlc -yy
 
 #Install Spotify
 sudo apt-get install snapd
-sudo snap install spotify
+sudo snap install spotify -yy
 
 # Install python virtualenv and pip
 sudo apt install python3
