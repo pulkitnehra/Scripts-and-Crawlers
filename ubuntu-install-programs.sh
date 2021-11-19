@@ -38,6 +38,8 @@ sudo snap install intellij-idea-community --classic
 
 # Install Pycharm
 sudo snap install pycharm-community --classic
+# Install codeblocks
+sudo apt install codeblocks
 
 #Install vlc
 sudo snap install vlc
