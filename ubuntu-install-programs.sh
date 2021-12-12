@@ -64,3 +64,7 @@ sudo apt install anydesk -yy
 # Install Telegram
 sudo snap install telegram-desktop -yy
 
+# Install obs studio
+sudo apt install ffmpeg
+sudo add-apt-repository ppa:obsproject/obs-studio
+ sudo apt update && sudo apt install obs-studio -y
