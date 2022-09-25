@@ -71,4 +71,20 @@ sudo snap install telegram-desktop -yy
 # Install obs studio
 sudo apt install ffmpeg
 sudo add-apt-repository ppa:obsproject/obs-studio
- sudo apt update && sudo apt install obs-studio -y
+sudo apt update && sudo apt install obs-studio -y
+
+# Install sql server
+wget -qO- https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add – 
+sudo apt-get update &&  sudo apt-get install -y mssql-server 
+sudo /opt/mssql/bin/mssql-conf setup 
+sudo systemctl start mssql-server 
+systemctl status mssql-server 
+ # # Install sqlodbc2017 and 
+# curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+# echo "deb [arch=amd64] https://packages.microsoft.com/ubuntu/18.04/prod bionic main" | sudo tee /etc/apt/sources.list.d/mssql-release.list
+# sudo apt update && sudo apt install msodbcsql17
+# sudo apt update && sudo apt-get install mssql-tools 
+## stop the service, replace stop with status or start
+# systemctl stop mssql-server.service
+# # start localhost
+# sqlcmd -S localhost -U SA
