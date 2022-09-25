@@ -2,6 +2,7 @@
 
 # Before moving forward please note that this script will work best if you have
 # ubuntu version >=18.04
+# This file works with most of debian based distribution like Zorin, Linux Mint etc
 
 
 # here -yy means it will not ask for user's permission to install
