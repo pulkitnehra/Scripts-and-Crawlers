@@ -14,9 +14,13 @@ This script when it is executable makes the silent install of the programs menti
 11. Python3 Virtual Environment
 12. Python3 pip
 # Installation process:
-### Extract the >ubuntu-install-programs.sh and open terminal in the same location as file
-### execute chmod +x ubuntu-install-programs.sh to make it executable
-### use bash ubuntu-install-programs.sh to execute it
+### Extract using 
+> ubuntu-install-programs.sh 
+### open terminal in the same location as file and execute
+### execute 
+>chmod +x ubuntu-install-programs.sh 
+### use below command to execute it
+> bash ubuntu-install-programs.sh
 
 
 
