@@ -14,6 +14,7 @@ This script when it is executable makes the silent install of the programs menti
 10. Spotify
 11. Python3 Virtual Environment
 12. Python3 pip
+13. For node follow:-[link](https://www.youtube.com/watch?v=JS2aIYd5ADI) 
 # Installation process:
 ### Extract the file  
 ### Open terminal in the same location as file and execute 
