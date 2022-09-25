@@ -1,6 +1,6 @@
 # Ubuntu-Script
 This script when it is executable makes the silent install of the programs mentioned in the README without any user intervention
-**_This file works with most of debian based distribution like Zorin, Linux Mint etc_
+**_This file works with most of debian based distribution like Zorin, Linux Mint etc_**
 # Programs are:-
 1. JDK 11
 2. Chrome
