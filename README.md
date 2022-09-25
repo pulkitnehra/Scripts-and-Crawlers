@@ -16,8 +16,7 @@ This script when it is executable makes the silent install of the programs menti
 # Installation process:
 ### Extract using 
 > ubuntu-install-programs.sh 
-### open terminal in the same location as file and execute
-### execute 
+### open terminal in the same location as file and execute 
 >chmod +x ubuntu-install-programs.sh 
 ### use below command to execute it
 > bash ubuntu-install-programs.sh
