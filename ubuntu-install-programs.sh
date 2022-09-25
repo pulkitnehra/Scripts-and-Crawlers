@@ -15,8 +15,6 @@ sudo apt install -yy openjdk-11-jdk
 sudo snap install eclipse --classic
 
 # # install mysql server
-sudo apt install -yy mysql-server
-sudo mysql_secure_installation
 
 #install the latest version of git
 sudo add-apt-repository -qq ppa:git-core/ppa
