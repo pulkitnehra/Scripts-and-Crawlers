@@ -79,6 +79,15 @@ sudo apt-get update &&  sudo apt-get install -y mssql-server
 sudo /opt/mssql/bin/mssql-conf setup 
 sudo systemctl start mssql-server 
 systemctl status mssql-server 
+
+# Install Flameshot Screen Capture Application
+sudo apt install flameshot -yy
+
+# Install NetSpeed Monitor
+sudo apt install gnome-shell-extension-prefs
+# for more info: -https://ubuntuhandbook.org/index.php/2020/06/download-upload-speed-ubuntu-20-04-panel/
+
+
  # # Install sqlodbc2017 and 
 # curl https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
 # echo "deb [arch=amd64] https://packages.microsoft.com/ubuntu/18.04/prod bionic main" | sudo tee /etc/apt/sources.list.d/mssql-release.list
